@@ -128,19 +128,21 @@ h2 {
     margin-top: 64px;
 }
 
-/* .cardcontainer {
+.cardcontainer {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-column: 1 / 4;
+    grid-auto-flow: column;
     gap: 24px;
-    width: 100%;
-    margin: 30px auto;
+    place-content: center;
 }
 
 .card {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 387px;
-    border-radius: 8px;
     padding: 24px;
+    margin: 0;
     gap: 12px;
-} */
+    background-color: #F9FAFB;
+    border-radius: 8px;
+}
