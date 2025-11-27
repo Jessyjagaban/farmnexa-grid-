@@ -1,0 +1,146 @@
+header {
+    max-height: 96px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 10px;
+    padding: 24px 100px;
+    border-bottom: 1px solid #CCCCCC;
+    place-items: center;
+
+}
+
+header p {
+    justify-self: start;
+    font-size: 24px;
+    color: #15803D;
+}
+
+nav {
+    display: flex;
+    justify-self: center;
+    gap: 40px;
+} 
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.btns {
+    justify-self: flex-end;
+    display: flex;
+    gap: 16px;
+}
+
+.btn1 {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #34A853;
+    height: 48px;
+    width: 140px;
+    background-color: #FFFFFF;
+    color: #34A853;
+    font-size: 16px;
+}
+
+.btn2 {
+    padding: 12px 24px;
+    border-radius: 8px;
+    height: 48px;
+    width: 140px;
+    background-color: #15803D;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+
+main h1 {
+    grid-column: 1 / 4;
+    display: grid;
+    place-items: center;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 120px;
+    row-gap: 40px;
+}
+
+main p {
+    display: grid;
+    grid-column: 1 / 4;
+    place-items: center;
+    text-align: center;
+    color: #3C383E;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container {
+    grid-column: 1 / 4;
+    display: flex;
+    margin: auto;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.btn3 {
+    border: 1px solid #34A853;
+    color: #34A853;
+    background-color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.btn4 {
+    text-decoration: none;
+    background-color: #15803D;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.con1 {
+    grid-column: 1 / 4;
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 606px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+h2 {
+    grid-column: 1 / 4;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333333;
+    margin: auto;
+    margin-top: 64px;
+}
+
+/* .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.card {
+    display: grid;
+    text-align: center;
+    width: 387px;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 12px;
+} */
